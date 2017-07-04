@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*Normalize*/
+}
+
+.wallpaper {
+  /*background-color: black;*/
+  background-image: url("collage.png");
+  z-index: 0;
+  height: 975px;
+  width: auto;
+  background-size: 1920px 975px;
+  background-repeat: no-repeat;
+}
+
+.comingsoon {
+  background-color: rgba(255,255,255,0.0);
+  height: 400px;
+  width: 800px;
+  /*opacity: 0.0;*/
+  border-style: solid;
+  border-color: rgba(255,255,255,0.7);
+  border-width: 10px;
+  border-radius: 25px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#countdown {
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px;
+  color: red;
+  position: absolute;
+  padding: 15px;
+  text-align: center;
+  margin-left: 128px;
+}
